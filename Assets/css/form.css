@@ -1,0 +1,42 @@
+.container {
+  max-width: 960px;
+}
+
+
+.btn-login  {
+    font-weight: 500;
+    color: #007bff;
+    border-color: #007bff;
+    width: 150px;
+}
+
+a.btn-login:hover {
+    color: white;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+
+
+footer {
+    height: 100px;
+}
+
+.footer-block {
+    margin: 20px auto 20px auto;
+}
+
+.ftp {
+  margin: 0px auto auto auto;
+}
+
+
+
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+.border-top-gray { border-top-color: #adb5bd; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+.lh-condensed { line-height: 1.25; }
