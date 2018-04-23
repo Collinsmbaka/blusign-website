@@ -3,16 +3,6 @@
 }
 
 
-.site-header a {
-  color: #999;
-  transition: ease-in-out color .15s;
-}
-.site-header a:hover {
-  color: #fff;
-  text-decoration: none;
-}
-
-
 
 .body-button {
     font-weight: 500;
@@ -26,6 +16,35 @@ a.body-button:hover {
     background-color: #007bff;
     border-color: #007bff;
 }
+
+.extra {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+
+.cover {
+  position: relative;
+  height: auto;
+}
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.cover:hover .overlay {
+  opacity: 1;
+}
+
+
+
 
 
 
